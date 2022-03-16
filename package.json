@@ -1,0 +1,22 @@
+{
+  "name": "sistemasdistribuidos-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amanda-Simoes/SistemasDistribuidos-Chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amanda-Simoes/SistemasDistribuidos-Chat/issues"
+  },
+  "homepage": "https://github.com/Amanda-Simoes/SistemasDistribuidos-Chat#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
