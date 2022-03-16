@@ -1,0 +1,10 @@
+#Versão
+version: '3.7'
+
+services:
+  database:
+      #Nome da Imagem
+      image: mongo
+      #Porta
+      ports:
+        - '27017:27017'
