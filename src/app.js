@@ -5,7 +5,7 @@ const requisicao = require("http");
 const express = require("express");
 const app = express();
 
-/* Socket.io */
+
 const socket = require("socket.io");
 
 const { connectSockets } = require("../socket/mongo");
@@ -13,7 +13,6 @@ const host = requisicao.createServer(app);
 const io = socket(host);
 connectSockets(io);
 
-/* Engine EJS */
 app.use(express.static(path.join(__dirname, "..","public")));
 app.set("views", path.join(__dirname, "..", "public"));
 app.engine("html", require("ejs").renderFile);
